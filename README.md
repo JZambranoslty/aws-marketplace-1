@@ -39,7 +39,7 @@ The repository also comes with terragrunt [examples](./examples), demonstrating 
 
 ## Installation Requirements
 
-The MOSTLY AI Data Intelligence Platform requires the following infrastructure in place to be installed and operate correctly:
+To install and run the MOSTLY AI Data Intelligence Platform, the following infrastructure components are required. This repository outlines these prerequisites and provides a step-by-step installation example.
 
 1. **Kubernetes Cluster** - the platform is distributed in a form of a helm-chart and only supports Kubernetes as a deployment target.
 2. **Fully-Qualified Domain Name (FQDN)** - FQDN is required when configuring the Keycloak identity provider realm. It is also used in the ingress configuration.
